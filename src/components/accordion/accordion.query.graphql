@@ -1,0 +1,32 @@
+fragment Accordion on ComponentAccordion {
+  sys {
+    id
+  }
+  internalTitle
+  sectionId
+  variant
+  eyebrow
+  heading
+  headingLevel
+  body {
+    json
+  }
+  accordionItemsCollection {
+    items {
+      sys {
+        id
+      }
+      label
+      content {
+        json
+      }
+    }
+  }
+  sectionPadding
+  layout
+  buttonsCollection {
+    items {
+      ...Button
+    }
+  }
+}

@@ -1,0 +1,18 @@
+fragment ImageBlock on SectionImageBlock {
+  sys {
+    id
+  }
+  internalTitle
+  sectionId
+  sectionPadding
+  image {
+    url
+    title
+    description
+    width
+    height
+  }
+  caption {
+    json
+  }
+}

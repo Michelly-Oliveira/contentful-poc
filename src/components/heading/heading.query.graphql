@@ -1,0 +1,21 @@
+fragment Heading on SectionHeadingBlock {
+  sys {
+    id
+  }
+  internalTitle
+  sectionId
+  sectionPadding
+  variant
+  eyebrow
+  headingLevel
+  heading
+  body {
+    json
+  }
+  buttonsCollection {
+    items {
+      ...Button
+    }
+  }
+  layout
+}

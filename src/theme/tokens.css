@@ -1,0 +1,365 @@
+/**
+ * Semantic Design Tokens
+ * Light and dark theme mappings for consistent UI components
+ */
+
+/* ========== TEXT TOKENS ========== */
+
+@utility text-heading {
+  @apply text-base-black dark:text-base-white;
+}
+
+@utility text-body {
+  @apply text-gray-800 dark:text-gray-400;
+}
+
+@utility text-eyebrow {
+  @apply text-base-black dark:text-base-white;
+}
+
+@utility text-link {
+  @apply text-base-black dark:text-base-white;
+}
+
+@utility text-link-hover {
+  @apply text-primary-900 dark:text-primary-600;
+}
+
+@utility text-hyperlink {
+  @apply text-primary-700 dark:text-primary-600;
+}
+
+@utility text-hyperlink-hover {
+  @apply text-base-black dark:text-primary-800;
+}
+
+@utility text-button {
+  @apply text-base-white dark:text-base-white;
+}
+
+@utility text-button-hover {
+  @apply text-base-white dark:text-base-white;
+}
+
+@utility text-secondary-button {
+  @apply text-base-white dark:text-base-black;
+}
+
+@utility text-disabled {
+  @apply text-gray-600 dark:text-gray-500;
+}
+
+@utility text-placeholder {
+  @apply text-gray-800 dark:text-gray-500;
+}
+
+@utility text-nav-item {
+  @apply text-base-black dark:text-base-white;
+}
+
+@utility text-eyebrow-date {
+  @apply text-primary-700 dark:text-primary-200;
+}
+
+@utility text-eyebrow-category {
+  @apply text-primary-700 dark:text-primary-600;
+}
+
+@utility text-link-active {
+  @apply text-primary-900 dark:text-primary-600;
+}
+
+@utility text-link-disabled {
+  @apply text-gray-800 dark:text-gray-600;
+}
+
+@utility text-filled {
+  @apply text-gray-800 dark:text-gray-100;
+}
+
+@utility text-highlight {
+  background: radial-gradient(
+    283.48% 167.31% at -6.61% 116.41%,
+    #7f8742 1%,
+    #02403d 19.74%,
+    #8a55b8 74.15%,
+    #421876 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  .dark & {
+    background: linear-gradient(180deg, #c680f3 0%, #fffcf6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* ========== SURFACE/BACKGROUND TOKENS ========== */
+
+@utility bg-background {
+  @apply bg-base-white dark:bg-gray-900;
+}
+
+@utility bg-secondary-background {
+  @apply bg-gray-200 dark:bg-gray-800;
+}
+
+@utility bg-card {
+  @apply bg-base-white dark:bg-gray-900;
+}
+
+@utility bg-button-primary {
+  @apply bg-primary-700 hover:bg-primary-900 group-hover:bg-primary-900 dark:bg-primary-700 dark:hover:bg-primary-900 dark:group-hover:bg-primary-900;
+}
+
+@utility bg-button-secondary {
+  @apply dark:bg-base-white bg-gray-900 hover:bg-gray-700 dark:hover:bg-gray-400;
+}
+
+@utility bg-button-active {
+  @apply bg-primary-900 dark:bg-primary-900;
+}
+
+@utility bg-navbar {
+  @apply bg-base-white dark:bg-base-white;
+}
+
+@utility bg-navlink-active {
+  @apply bg-alphas-sea dark:bg-alphas-sea;
+}
+
+@utility bg-disabled {
+  @apply bg-gray-400 dark:bg-gray-600;
+}
+
+@utility bg-eyebrow {
+  @apply bg-alphas-dark-sea dark:bg-alphas-dark-sea;
+}
+
+@utility bg-accordion-default {
+  @apply bg-base-white dark:bg-base-black;
+}
+
+@utility bg-accordion-selected {
+  @apply bg-primary-50 dark:bg-alphas-mint;
+}
+
+@utility bg-cta-bar {
+  @apply bg-alphas-mint dark:bg-primary-500;
+}
+
+@utility bg-input {
+  @apply bg-base-white dark:bg-gray-800;
+}
+
+@utility bg-table-cell {
+  @apply bg-alphas-dark-sea dark:bg-alphas-dark-sea;
+}
+
+@utility bg-stats-card {
+  @apply bg-primary-700 dark:bg-primary-700;
+}
+
+/* ========== ICON TOKENS ========== */
+
+@utility icon-primary {
+  @apply text-primary-700 dark:text-primary-600;
+}
+
+@utility icon-button {
+  @apply text-base-white dark:text-base-white;
+}
+
+@utility icon-button-hover {
+  @apply text-base-white dark:text-primary-900;
+}
+
+@utility icon-link {
+  @apply text-primary-700 dark:text-primary-600;
+}
+
+@utility icon-link-hover {
+  @apply text-primary-600 dark:text-primary-200;
+}
+
+@utility icon-success {
+  @apply text-success-700 dark:text-success-200;
+}
+
+@utility icon-warning {
+  @apply text-yellow-700 dark:text-yellow-300;
+}
+
+@utility icon-error {
+  @apply text-red-700 dark:text-red-300;
+}
+
+@utility icon-disabled {
+  @apply text-gray-500 dark:text-gray-500;
+}
+
+@utility icon-breadcrumb {
+  @apply text-primary-100 dark:text-primary-100;
+}
+
+@utility icon-contained {
+  @apply dark:text-base-white text-gray-900;
+}
+
+@utility icon-brand-fg {
+  @apply dark:text-base-white text-purple-500;
+}
+
+@utility icon-brand-bg {
+  @apply dark:text-base-white text-purple-200;
+}
+
+/* ========== STROKE/BORDER TOKENS ========== */
+
+@utility border-primary {
+  @apply border-primary-600 dark:border-primary-600;
+}
+
+@utility border-secondary {
+  @apply border-gray-300 dark:border-gray-800;
+}
+
+@utility border-secondary-button {
+  @apply dark:border-base-white border-gray-900;
+}
+
+@utility border-error {
+  @apply border-red-800 dark:border-red-800;
+}
+
+@utility border-input {
+  @apply border-gray-400 dark:border-gray-500;
+}
+
+@utility border-table-of-contents {
+  @apply border-primary-600 dark:border-primary-600;
+}
+
+/* ========== SEMANTIC STATE TOKENS ========== */
+
+@utility bg-success {
+  @apply bg-success-50 dark:bg-success-900;
+}
+
+@utility bg-warning {
+  @apply bg-yellow-50 dark:bg-yellow-900;
+}
+
+@utility bg-error {
+  @apply bg-red-50 dark:bg-red-900;
+}
+
+@utility text-success {
+  @apply text-success-700 dark:text-success-200;
+}
+
+@utility text-warning {
+  @apply text-yellow-700 dark:text-yellow-200;
+}
+
+@utility text-error {
+  @apply text-red-700 dark:text-red-300;
+}
+
+/* ========== SPECIAL COMPONENT TOKENS ========== */
+
+@utility bg-search-button {
+  @apply bg-primary-700 dark:bg-primary-700;
+}
+
+@utility bg-switcher-default {
+  @apply bg-primary-200 dark:bg-primary-800;
+}
+
+@utility bg-switcher-active {
+  @apply bg-primary-100 dark:bg-gray-800;
+}
+
+@utility bg-switcher-progress {
+  @apply bg-primary-100 dark:bg-primary-800;
+}
+
+@utility bg-scroll {
+  @apply bg-primary-300 dark:bg-primary-900;
+}
+
+@utility bg-tabbed-switcher {
+  @apply bg-base-black dark:bg-base-white;
+}
+
+@utility bg-tab-active {
+  @apply bg-primary-50 dark:bg-gray-800;
+}
+
+@utility border-tabbed-switcher-active {
+  @apply border-primary-700 dark:border-primary-600;
+}
+
+@utility bg-blog-cta-card {
+  @apply bg-alphas-mint dark:bg-alphas-mint;
+}
+
+@utility bg-blog-cta-button {
+  @apply bg-primary-700 dark:bg-primary-700;
+}
+
+@utility text-blog-cta-card {
+  @apply text-primary-800 dark:text-base-white;
+}
+
+@utility text-blog-cta-button {
+  @apply text-base-white dark:text-primary-900;
+}
+
+/* ========== EYEBROW INDICATOR TOKENS ========== */
+
+@utility bg-eyebrow-pink {
+  @apply bg-purple-900 dark:bg-purple-900;
+}
+
+@utility bg-eyebrow-pink-inner {
+  @apply bg-purple-300 dark:bg-purple-300;
+}
+
+@utility bg-eyebrow-purple {
+  @apply bg-purple-900 dark:bg-purple-900;
+}
+
+@utility bg-eyebrow-purple-inner {
+  @apply bg-purple-200 dark:bg-purple-200;
+}
+
+@utility bg-eyebrow-celtic {
+  @apply bg-orange-800 dark:bg-orange-800;
+}
+
+@utility bg-eyebrow-celtic-inner {
+  @apply bg-orange-300 dark:bg-orange-300;
+}
+
+@utility bg-eyebrow-blue {
+  @apply bg-blue-900 dark:bg-blue-900;
+}
+
+@utility bg-eyebrow-blue-inner {
+  @apply bg-blue-300 dark:bg-blue-300;
+}
+
+/* ========== LOGO TOKENS ========== */
+
+@utility logo-icon {
+  @apply text-primary-600 dark:text-primary-600;
+}
+
+@utility logo-text {
+  @apply text-base-black dark:text-base-white;
+}

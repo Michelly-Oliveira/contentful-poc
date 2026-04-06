@@ -1,0 +1,557 @@
+/* Auto-generated typography tokens from Figma */
+/* Do not edit directly - run typography-to-tokens.mjs to regenerate */
+
+@theme {
+  /* Font Family Variables */
+  --font-sans: var(--font-open-sans);
+  --font-serif: var(--font-roboto-slab);
+  --font-mono: var(--font-roboto-mono);
+
+  --font-body: var(--font-open-sans);
+  --font-heading: var(--font-roboto-slab);
+  --font-heading-accent: var(--font-roboto-slab);
+  --font-ui: var(--font-open-sans);
+  --font-caption: var(--font-open-sans);
+
+  /* Typography Token Variables */
+
+  /* Display */
+  --text-display-7xl-desktop: 5.625rem;
+  --text-display-7xl-tablet: 3.75rem;
+  --text-display-7xl-mobile: 3.75rem;
+  --line-height-display-7xl-desktop: 5.5rem;
+  --line-height-display-7xl-tablet: 4rem;
+  --line-height-display-7xl-mobile: 4rem;
+  --text-display-6xl-desktop: 4.5rem;
+  --text-display-6xl-tablet: 3rem;
+  --text-display-6xl-mobile: 3rem;
+  --line-height-display-6xl-desktop: 5rem;
+  --line-height-display-6xl-tablet: 3.5rem;
+  --line-height-display-6xl-mobile: 3.5rem;
+  --text-display-5xl-desktop: 3.75rem;
+  --text-display-5xl-tablet: 2.25rem;
+  --text-display-5xl-mobile: 2.25rem;
+  --line-height-display-5xl-desktop: 4rem;
+  --line-height-display-5xl-tablet: 2.5rem;
+  --line-height-display-5xl-mobile: 2.5rem;
+  --text-display-4xl-desktop: 3rem;
+  --text-display-4xl-tablet: 1.875rem;
+  --text-display-4xl-mobile: 1.875rem;
+  --line-height-display-4xl-desktop: 3.5rem;
+  --line-height-display-4xl-tablet: 2.375rem;
+  --line-height-display-4xl-mobile: 2.375rem;
+  --text-display-3xl-desktop: 2.25rem;
+  --text-display-3xl-tablet: 1.5rem;
+  --text-display-3xl-mobile: 1.5rem;
+  --line-height-display-3xl-desktop: 2.5rem;
+  --line-height-display-3xl-tablet: 2rem;
+  --line-height-display-3xl-mobile: 2rem;
+  --text-display-2xl-desktop: 1.875rem;
+  --text-display-2xl-tablet: 1.25rem;
+  --text-display-2xl-mobile: 1.25rem;
+  --line-height-display-2xl-desktop: 2.375rem;
+  --line-height-display-2xl-tablet: 1.875rem;
+  --line-height-display-2xl-mobile: 1.875rem;
+  --text-display-xl-desktop: 1.5rem;
+  --text-display-xl-tablet: 1.125rem;
+  --text-display-xl-mobile: 1.125rem;
+  --line-height-display-xl-desktop: 2rem;
+  --line-height-display-xl-tablet: 1.5rem;
+  --line-height-display-xl-mobile: 1.5rem;
+
+  /* Text */
+  --text-lg-desktop: 1.25rem;
+  --text-lg-tablet: 1.125rem;
+  --text-lg-mobile: 1.125rem;
+  --line-height-lg-desktop: 1.875rem;
+  --line-height-lg-tablet: 1.75rem;
+  --line-height-lg-mobile: 1.75rem;
+  --text-md-desktop: 1.125rem;
+  --text-md-tablet: 1rem;
+  --text-md-mobile: 1rem;
+  --line-height-md-desktop: 1.75rem;
+  --line-height-md-tablet: 1.5rem;
+  --line-height-md-mobile: 1.5rem;
+  --text-sm-desktop: 1rem;
+  --text-sm-tablet: 0.875rem;
+  --text-sm-mobile: 0.875rem;
+  --line-height-sm-desktop: 1.5rem;
+  --line-height-sm-tablet: 1.5rem;
+  --line-height-sm-mobile: 1.5rem;
+  --text-xs-desktop: 0.875rem;
+  --text-xs-tablet: 0.75rem;
+  --text-xs-mobile: 0.75rem;
+  --line-height-xs-desktop: 1.5rem;
+  --line-height-xs-tablet: 1.125rem;
+  --line-height-xs-mobile: 1.125rem;
+  --text-2xs-desktop: 0.75rem;
+  --text-2xs-tablet: 0.75rem;
+  --text-2xs-mobile: 0.75rem;
+  --line-height-2xs-desktop: 1.125rem;
+  --line-height-2xs-tablet: 1.125rem;
+  --line-height-2xs-mobile: 1.125rem;
+
+  /* Mono */
+  --text-mono-lg-desktop: 1.125rem;
+  --text-mono-lg-tablet: 1rem;
+  --text-mono-lg-mobile: 1rem;
+  --line-height-mono-lg-desktop: 1.125rem;
+  --line-height-mono-lg-tablet: 1.25rem;
+  --line-height-mono-lg-mobile: 1.25rem;
+  --text-mono-md-desktop: 1rem;
+  --text-mono-md-tablet: 0.875rem;
+  --text-mono-md-mobile: 0.875rem;
+  --line-height-mono-md-desktop: 1.25rem;
+  --line-height-mono-md-tablet: 1.5rem;
+  --line-height-mono-md-mobile: 1.5rem;
+  --text-mono-sm-desktop: 0.875rem;
+  --text-mono-sm-tablet: 0.75rem;
+  --text-mono-sm-mobile: 0.75rem;
+  --line-height-mono-sm-desktop: 1.5rem;
+  --line-height-mono-sm-tablet: 1.5rem;
+  --line-height-mono-sm-mobile: 1.5rem;
+  --text-mono-xs-desktop: 0.75rem;
+  --text-mono-xs-tablet: 0.75rem;
+  --text-mono-xs-mobile: 0.75rem;
+  --line-height-mono-xs-desktop: 1.5rem;
+  --line-height-mono-xs-tablet: 1.5rem;
+  --line-height-mono-xs-mobile: 1.5rem;
+
+  /* Rich-text */
+  --text-rich-text-h1-desktop: 3.5rem;
+  --text-rich-text-h1-tablet: 3rem;
+  --text-rich-text-h1-mobile: 3rem;
+  --line-height-rich-text-h1-desktop: 3.75rem;
+  --line-height-rich-text-h1-tablet: 3rem;
+  --line-height-rich-text-h1-mobile: 3rem;
+  --text-rich-text-h2-desktop: 3rem;
+  --text-rich-text-h2-tablet: 2rem;
+  --text-rich-text-h2-mobile: 2rem;
+  --line-height-rich-text-h2-desktop: 3rem;
+  --line-height-rich-text-h2-tablet: 2.375rem;
+  --line-height-rich-text-h2-mobile: 2.375rem;
+  --text-rich-text-h3-desktop: 2rem;
+  --text-rich-text-h3-tablet: 1.5rem;
+  --text-rich-text-h3-mobile: 1.5rem;
+  --line-height-rich-text-h3-desktop: 2.375rem;
+  --line-height-rich-text-h3-tablet: 2rem;
+  --line-height-rich-text-h3-mobile: 2rem;
+  --text-rich-text-h4-desktop: 1.5rem;
+  --text-rich-text-h4-tablet: 1.25rem;
+  --text-rich-text-h4-mobile: 1.25rem;
+  --line-height-rich-text-h4-desktop: 2rem;
+  --line-height-rich-text-h4-tablet: 1.875rem;
+  --line-height-rich-text-h4-mobile: 1.875rem;
+  --text-rich-text-h5-desktop: 1.25rem;
+  --text-rich-text-h5-tablet: 1.25rem;
+  --text-rich-text-h5-mobile: 1.25rem;
+  --line-height-rich-text-h5-desktop: 1.875rem;
+  --line-height-rich-text-h5-tablet: 1.875rem;
+  --line-height-rich-text-h5-mobile: 1.875rem;
+  --text-rich-text-body-desktop: 1rem;
+  --text-rich-text-body-tablet: 0.875rem;
+  --text-rich-text-body-mobile: 0.875rem;
+  --line-height-rich-text-body-desktop: 1.75rem;
+  --line-height-rich-text-body-tablet: 1.5rem;
+  --line-height-rich-text-body-mobile: 1.5rem;
+  --text-rich-text-image-caption-desktop: 0.875rem;
+  --text-rich-text-image-caption-tablet: 0.75rem;
+  --text-rich-text-image-caption-mobile: 0.75rem;
+  --line-height-rich-text-image-caption-desktop: 1.25rem;
+  --line-height-rich-text-image-caption-tablet: 1.5rem;
+  --line-height-rich-text-image-caption-mobile: 1.5rem;
+  --text-rich-text-hyperlink-desktop: 1rem;
+  --text-rich-text-hyperlink-tablet: 0.875rem;
+  --text-rich-text-hyperlink-mobile: 0.875rem;
+  --line-height-rich-text-hyperlink-desktop: 1.5rem;
+  --line-height-rich-text-hyperlink-tablet: 1.25rem;
+  --line-height-rich-text-hyperlink-mobile: 1.25rem;
+  --text-rich-text-blockquote-desktop: 1.125rem;
+  --text-rich-text-blockquote-tablet: 1.125rem;
+  --text-rich-text-blockquote-mobile: 1.125rem;
+  --line-height-rich-text-blockquote-desktop: 1.75rem;
+  --line-height-rich-text-blockquote-tablet: 1.75rem;
+  --line-height-rich-text-blockquote-mobile: 1.75rem;
+}
+
+/* Responsive Typography Utilities */
+
+/* Display Utilities */
+@utility text-display-7xl {
+  font-size: var(--text-display-7xl-mobile);
+  line-height: var(--line-height-display-7xl-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-display-7xl-tablet);
+    line-height: var(--line-height-display-7xl-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-display-7xl-desktop);
+    line-height: var(--line-height-display-7xl-desktop);
+  }
+}
+
+@utility text-display-6xl {
+  font-size: var(--text-display-6xl-mobile);
+  line-height: var(--line-height-display-6xl-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-display-6xl-tablet);
+    line-height: var(--line-height-display-6xl-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-display-6xl-desktop);
+    line-height: var(--line-height-display-6xl-desktop);
+  }
+}
+
+@utility text-display-5xl {
+  font-size: var(--text-display-5xl-mobile);
+  line-height: var(--line-height-display-5xl-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-display-5xl-tablet);
+    line-height: var(--line-height-display-5xl-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-display-5xl-desktop);
+    line-height: var(--line-height-display-5xl-desktop);
+  }
+}
+
+@utility text-display-4xl {
+  font-size: var(--text-display-4xl-mobile);
+  line-height: var(--line-height-display-4xl-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-display-4xl-tablet);
+    line-height: var(--line-height-display-4xl-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-display-4xl-desktop);
+    line-height: var(--line-height-display-4xl-desktop);
+  }
+}
+
+@utility text-display-3xl {
+  font-size: var(--text-display-3xl-mobile);
+  line-height: var(--line-height-display-3xl-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-display-3xl-tablet);
+    line-height: var(--line-height-display-3xl-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-display-3xl-desktop);
+    line-height: var(--line-height-display-3xl-desktop);
+  }
+}
+
+@utility text-display-2xl {
+  font-size: var(--text-display-2xl-mobile);
+  line-height: var(--line-height-display-2xl-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-display-2xl-tablet);
+    line-height: var(--line-height-display-2xl-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-display-2xl-desktop);
+    line-height: var(--line-height-display-2xl-desktop);
+  }
+}
+
+@utility text-display-xl {
+  font-size: var(--text-display-xl-mobile);
+  line-height: var(--line-height-display-xl-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-display-xl-tablet);
+    line-height: var(--line-height-display-xl-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-display-xl-desktop);
+    line-height: var(--line-height-display-xl-desktop);
+  }
+}
+
+/* Text Utilities */
+@utility text-lg {
+  font-size: var(--text-lg-mobile);
+  line-height: var(--line-height-lg-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-lg-tablet);
+    line-height: var(--line-height-lg-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-lg-desktop);
+    line-height: var(--line-height-lg-desktop);
+  }
+}
+
+@utility text-md {
+  font-size: var(--text-md-mobile);
+  line-height: var(--line-height-md-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-md-tablet);
+    line-height: var(--line-height-md-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-md-desktop);
+    line-height: var(--line-height-md-desktop);
+  }
+}
+
+@utility text-sm {
+  font-size: var(--text-sm-mobile);
+  line-height: var(--line-height-sm-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-sm-tablet);
+    line-height: var(--line-height-sm-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-sm-desktop);
+    line-height: var(--line-height-sm-desktop);
+  }
+}
+
+@utility text-xs {
+  font-size: var(--text-xs-mobile);
+  line-height: var(--line-height-xs-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-xs-tablet);
+    line-height: var(--line-height-xs-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-xs-desktop);
+    line-height: var(--line-height-xs-desktop);
+  }
+}
+
+@utility text-2xs {
+  font-size: var(--text-2xs-mobile);
+  line-height: var(--line-height-2xs-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-2xs-tablet);
+    line-height: var(--line-height-2xs-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-2xs-desktop);
+    line-height: var(--line-height-2xs-desktop);
+  }
+}
+
+/* Mono Utilities */
+@utility text-mono-lg {
+  font-size: var(--text-mono-lg-mobile);
+  line-height: var(--line-height-mono-lg-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-mono-lg-tablet);
+    line-height: var(--line-height-mono-lg-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-mono-lg-desktop);
+    line-height: var(--line-height-mono-lg-desktop);
+  }
+}
+
+@utility text-mono-md {
+  font-size: var(--text-mono-md-mobile);
+  line-height: var(--line-height-mono-md-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-mono-md-tablet);
+    line-height: var(--line-height-mono-md-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-mono-md-desktop);
+    line-height: var(--line-height-mono-md-desktop);
+  }
+}
+
+@utility text-mono-sm {
+  font-size: var(--text-mono-sm-mobile);
+  line-height: var(--line-height-mono-sm-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-mono-sm-tablet);
+    line-height: var(--line-height-mono-sm-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-mono-sm-desktop);
+    line-height: var(--line-height-mono-sm-desktop);
+  }
+}
+
+@utility text-mono-xs {
+  font-size: var(--text-mono-xs-mobile);
+  line-height: var(--line-height-mono-xs-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-mono-xs-tablet);
+    line-height: var(--line-height-mono-xs-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-mono-xs-desktop);
+    line-height: var(--line-height-mono-xs-desktop);
+  }
+}
+
+/* Rich-text Utilities */
+@utility text-rich-text-h1 {
+  font-size: var(--text-rich-text-h1-mobile);
+  line-height: var(--line-height-rich-text-h1-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-h1-tablet);
+    line-height: var(--line-height-rich-text-h1-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-h1-desktop);
+    line-height: var(--line-height-rich-text-h1-desktop);
+  }
+}
+
+@utility text-rich-text-h2 {
+  font-size: var(--text-rich-text-h2-mobile);
+  line-height: var(--line-height-rich-text-h2-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-h2-tablet);
+    line-height: var(--line-height-rich-text-h2-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-h2-desktop);
+    line-height: var(--line-height-rich-text-h2-desktop);
+  }
+}
+
+@utility text-rich-text-h3 {
+  font-size: var(--text-rich-text-h3-mobile);
+  line-height: var(--line-height-rich-text-h3-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-h3-tablet);
+    line-height: var(--line-height-rich-text-h3-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-h3-desktop);
+    line-height: var(--line-height-rich-text-h3-desktop);
+  }
+}
+
+@utility text-rich-text-h4 {
+  font-size: var(--text-rich-text-h4-mobile);
+  line-height: var(--line-height-rich-text-h4-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-h4-tablet);
+    line-height: var(--line-height-rich-text-h4-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-h4-desktop);
+    line-height: var(--line-height-rich-text-h4-desktop);
+  }
+}
+
+@utility text-rich-text-h5 {
+  font-size: var(--text-rich-text-h5-mobile);
+  line-height: var(--line-height-rich-text-h5-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-h5-tablet);
+    line-height: var(--line-height-rich-text-h5-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-h5-desktop);
+    line-height: var(--line-height-rich-text-h5-desktop);
+  }
+}
+
+@utility text-rich-text-body {
+  font-size: var(--text-rich-text-body-mobile);
+  line-height: var(--line-height-rich-text-body-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-body-tablet);
+    line-height: var(--line-height-rich-text-body-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-body-desktop);
+    line-height: var(--line-height-rich-text-body-desktop);
+  }
+}
+
+@utility text-rich-text-image-caption {
+  font-size: var(--text-rich-text-image-caption-mobile);
+  line-height: var(--line-height-rich-text-image-caption-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-image-caption-tablet);
+    line-height: var(--line-height-rich-text-image-caption-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-image-caption-desktop);
+    line-height: var(--line-height-rich-text-image-caption-desktop);
+  }
+}
+
+@utility text-rich-text-hyperlink {
+  font-size: var(--text-rich-text-hyperlink-mobile);
+  line-height: var(--line-height-rich-text-hyperlink-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-hyperlink-tablet);
+    line-height: var(--line-height-rich-text-hyperlink-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-hyperlink-desktop);
+    line-height: var(--line-height-rich-text-hyperlink-desktop);
+  }
+}
+
+@utility text-rich-text-blockquote {
+  font-size: var(--text-rich-text-blockquote-mobile);
+  line-height: var(--line-height-rich-text-blockquote-mobile);
+
+  @media (min-width: 48rem) {
+    font-size: var(--text-rich-text-blockquote-tablet);
+    line-height: var(--line-height-rich-text-blockquote-tablet);
+  }
+
+  @media (min-width: 64rem) {
+    font-size: var(--text-rich-text-blockquote-desktop);
+    line-height: var(--line-height-rich-text-blockquote-desktop);
+  }
+}
+

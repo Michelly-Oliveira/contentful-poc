@@ -1,0 +1,10 @@
+fragment Button on MoleculeButton {
+  sys {
+    id
+  }
+  internalName
+  buttonText
+  link
+  endIcon
+  variant
+}

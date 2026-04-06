@@ -1,0 +1,14 @@
+query GetGlobalNavigation {
+  globalNavigationCollection(limit: 1) {
+    items {
+      __typename
+      title
+      sys {
+        id
+      }
+      logo {
+        ...Asset
+      }
+    }
+  }
+}

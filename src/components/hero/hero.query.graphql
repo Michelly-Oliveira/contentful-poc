@@ -1,0 +1,28 @@
+fragment Hero on SectionHero {
+  sys {
+    id
+  }
+  internalTitle
+  sectionId
+  sectionPadding
+  variant
+  eyebrow
+  headingLevel
+  heading
+  body {
+    json
+  }
+  buttonsCollection {
+    items {
+      ...Button
+    }
+  }
+  asset {
+    url
+    title
+    description
+    width
+    height
+  }
+  assetPosition
+}

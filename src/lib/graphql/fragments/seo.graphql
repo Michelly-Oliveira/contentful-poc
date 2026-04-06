@@ -1,0 +1,10 @@
+fragment Seo on MetaSeo {
+  internalName
+  pageTitle
+  pageDescription
+  openGraphImage {
+    ...Asset
+  }
+  noIndex
+  noFollow
+}

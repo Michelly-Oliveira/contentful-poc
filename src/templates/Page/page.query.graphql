@@ -1,0 +1,20 @@
+query PageByPathname($pathname: String!, $preview: Boolean = false) {
+  templatePageCollection(where: { pathname: $pathname }, preview: $preview, limit: 1) {
+    items {
+      sys {
+        id
+      }
+      title
+      pathname
+      sectionsCollection {
+        items {
+          __typename
+          ...Accordion
+          ...Heading
+          ...Hero
+          ...ImageBlock
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+query PageSeoByPathname($pathname: String!, $preview: Boolean = false) {
+  templatePageCollection(where: { pathname: $pathname }, preview: $preview, limit: 1) {
+    items {
+      sys {
+        id
+      }
+      seo {
+        ...Seo
+      }
+    }
+  }
+}
