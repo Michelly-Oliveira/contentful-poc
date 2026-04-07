@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    {
+      "url": "/campaigns",
+      "mappedUrl": "/about-us/campaigns"
+    }
+  ]
+}
